@@ -33,11 +33,10 @@ function frequent(arr){
         console.log(result);
         return result
     }
-    return multibleBig(mapped,biggest)
+    return (multibleBig(mapped,biggest)).join(' and ');
 }
 console.log(frequent(arr1));
 /*
-Sample array : var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
-Sample Output : a ( 5 times )
+Sample array : var arr1=[2,3, 'a', 'a','a','a', 'a',2, 2,2,2,2, 3, 'a', 3, 'a', 2, 4, 9, 3,'b'];
+Sample Output : 2 (7) times and a (7) times
 */
-//[2 (6) times, a (3) times]
