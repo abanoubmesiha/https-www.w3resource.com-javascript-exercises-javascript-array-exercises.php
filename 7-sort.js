@@ -1,3 +1,4 @@
+//7. Write a JavaScript program to sort the items of an array.
 var arr1 = [ -6,-7,-4,1,-3,5,2,-1,2 ];
 function sortArr(arr){
     return arr.sort((a,b)=> {

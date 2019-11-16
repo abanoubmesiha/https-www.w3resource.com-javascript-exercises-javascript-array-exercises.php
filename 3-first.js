@@ -1,3 +1,5 @@
+/*3. Write a JavaScript function to get the first element of an array.
+ Passing a parameter 'n' will return the first 'n' elements of the array.*/
 function first(arr,n=1) {
     if (n < 1 ) { n = 0 }
     return arr.slice(0,n);

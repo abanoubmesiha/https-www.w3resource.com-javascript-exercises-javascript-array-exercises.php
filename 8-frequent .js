@@ -1,3 +1,4 @@
+//8.Write a JavaScript program to find the most frequent item of an array.
 var arr1=[2,3, 'a', 'a','a','a', 'a',2, 2,2,2,2, 3, 'a', 3, 'a', 2, 4, 9, 3,'b'];
 function frequent(arr){
     var sorted = arr.sort();
